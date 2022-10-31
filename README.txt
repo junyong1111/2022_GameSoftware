@@ -8,7 +8,7 @@
 - Unity : 2021.3.9f1
 
 
-[SampleScene] - 5점
+[SampleScene] - 5점 (구현완료)
 1. 3D Object Shpere 추가하고 해당 Shpere에 Prefab 활용하여 다양한 모습(차, 비행기 등)으로 변경 
     Asset Store에서 Shpere에 반영할 Asset을 import 하고 import한 prefab을 Shpere에 적용 (2점)   
 (구현완료)
@@ -23,9 +23,27 @@
 1. Particle System을 추가하고 속성값 5개 이상 변경하여 반영 (5점)
     변경된 속성값은 Readme.txt 파일에 설명을 작성
 
-[TerrainScene] - 5점
+FX_Fire
+- Start Lifetime 변경 (2)
+- Start Speed 변경 (1)
+- Emission -> Rate over Time 변경 (40)
+- Shpae -> Angle 수정 (0)
+- Color 수정
+- Size over Lifetime (크기 변경)
+- Noise -> Strength 변경 (0.4)
+
+FX_Smoke
+- Start Lifetime 변경 (6)
+- Start Speed 변경 (2)
+- Shpae -> Angle 수정 (25)
+- Color 수정
+- Size over Lifetime (크기 변경)
+- Rotation over Lifetime 변경(-45, 45)
+
+[TerrainScene] - 5점 (구현완료)
 1. 3D Object로 Terrain을 추가하고 표면(Layer) Texture 변경, Brush로 산, 언덕 만들고
     나무, 잔디, Wind zone 추가 (5점)
+    
 
 [BackgroundScene] - 5점
 1. 스크롤되는 배경화면 만들기 (5점)
