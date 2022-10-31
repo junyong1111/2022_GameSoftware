@@ -1,0 +1,275 @@
+Unity Editor version:    2021.3.9f1 (ad3870b89536)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6 (Build 21G115)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/dak_kiwon/My gms
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49583
+Successfully changed project path to: /Users/dak_kiwon/My gms
+/Users/dak_kiwon/My gms
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 96.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dak_kiwon/My gms/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001494 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 88.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (573ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (89ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002334 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/dak_kiwon/My gms/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/dak_kiwon/My gms/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1232ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (865ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.8 KB). Loaded Objects now: 3840.
+Memory consumption went from 235.5 MB to 235.4 MB.
+Total: 4.214339 ms (FindLiveObjects: 0.281630 ms CreateObjectMapping: 0.202323 ms MarkObjects: 3.567926 ms  DeleteObjects: 0.161471 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2303.040787 seconds.
+  path: Assets/Profebs
+  artifactKey: Guid(b8d1ade2e0f7a431681b997a440f19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profebs using Guid(b8d1ade2e0f7a431681b997a440f19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1320699cdb25f06a936c8b9d5589c3f') in 0.007724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.333703 seconds.
+  path: Assets/Profabs
+  artifactKey: Guid(b8d1ade2e0f7a431681b997a440f19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs using Guid(b8d1ade2e0f7a431681b997a440f19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b83779b30fc3f80eb770ac0f322edf8') in 0.000937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.134942 seconds.
+  path: Assets/Profabs/Sphere.prefab
+  artifactKey: Guid(5cebc08337547489b928f22e6498e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Profabs/Sphere.prefab using Guid(5cebc08337547489b928f22e6498e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1678e3f48d9a22dba14ca5c93ab3b17e') in 0.225041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.577008 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(b8d1ade2e0f7a431681b997a440f19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(b8d1ade2e0f7a431681b997a440f19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5214e6bf5a9f9a3a13e045ced8640b') in 0.000786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.690911 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(c5c67187a9ec14cca9570d6e0180499c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(c5c67187a9ec14cca9570d6e0180499c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82225a1502851c5a07775605a315fe18') in 0.362374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.928739 seconds.
+  path: Assets/Azerilo/HQ Racing Car Model No.1203/Materials/black.mat
+  artifactKey: Guid(14d9d9e7ae0536c42848e23d87fc3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/HQ Racing Car Model No.1203/Materials/black.mat using Guid(14d9d9e7ae0536c42848e23d87fc3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c745b4baf66e0ae373b2eba718220d0') in 0.674326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Azerilo/HQ Racing Car Model No.1203/Materials/details mat.mat
+  artifactKey: Guid(0e69560617fd0d047ad1e0e2c2f7c39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/HQ Racing Car Model No.1203/Materials/details mat.mat using Guid(0e69560617fd0d047ad1e0e2c2f7c39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70963aa628a87e7af29a1fe2dff90e4') in 0.395076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Azerilo/HQ Racing Car Model No.1203/Materials/tire border mat.mat
+  artifactKey: Guid(de2d443f9c62a4347b57c1de3137d2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/HQ Racing Car Model No.1203/Materials/tire border mat.mat using Guid(de2d443f9c62a4347b57c1de3137d2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5419c35d9507e072ded51af17ccab7') in 0.013703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Azerilo/HQ Racing Car Model No.1203/Materials/BodyMat blue.mat
+  artifactKey: Guid(d796cd947be0fc341aeee42ba0f62719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/HQ Racing Car Model No.1203/Materials/BodyMat blue.mat using Guid(d796cd947be0fc341aeee42ba0f62719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcc6bf9af0e5d84bb6bad8174971ae7') in 0.012762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Azerilo/HQ Racing Car Model No.1203/Materials/brake disk.mat
+  artifactKey: Guid(bb63a0f10fdb92741a579305815b466b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/HQ Racing Car Model No.1203/Materials/brake disk.mat using Guid(bb63a0f10fdb92741a579305815b466b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c593de4e622762dba978a5aa2c4e02') in 0.015467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Azerilo/HQ Racing Car Model No.1203/Materials/Glass mat.mat
+  artifactKey: Guid(ecf4e798430af3040b1d0a57b43453f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/HQ Racing Car Model No.1203/Materials/Glass mat.mat using Guid(ecf4e798430af3040b1d0a57b43453f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21df971ba99ffdaae441c456ed5e3210') in 0.308149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.003038 seconds.
+  path: Assets/Azerilo/HQ Racing Car Model No.mat
+  artifactKey: Guid(e0d7fe297fe484f47a759fe5db693bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Azerilo/HQ Racing Car Model No.mat using Guid(e0d7fe297fe484f47a759fe5db693bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c070d183859cd132408bf61fb12ce387') in 0.023976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.613775 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.001100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.574548 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(c4302566ba5524bb5a45cc22f900ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(c4302566ba5524bb5a45cc22f900ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44888e3667338c7b3a2d2a1d6fdafd4b') in 0.026122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.577968 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(c4302566ba5524bb5a45cc22f900ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(c4302566ba5524bb5a45cc22f900ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e9fec62d7f87a05cba79078a7082f4') in 0.190772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 584.172055 seconds.
+  path: Assets/Sphere.prefab
+  artifactKey: Guid(c4302566ba5524bb5a45cc22f900ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere.prefab using Guid(c4302566ba5524bb5a45cc22f900ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c08c306d7569f54365a99b727a4d7ef') in 0.047051 seconds 
