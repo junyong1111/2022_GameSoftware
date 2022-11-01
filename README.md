@@ -6,7 +6,6 @@
 실행환경
 - Unity : 2021.3.9f1
 
-
 [SampleScene] - 5점 (구현완료)
 1. 3D Object Shpere 추가하고 해당 Shpere에 Prefab 활용하여 다양한 모습(차, 비행기 등)으로 변경 
     Asset Store에서 Shpere에 반영할 Asset을 import 하고 import한 prefab을 Shpere에 적용 (2점)   
